@@ -8,6 +8,8 @@ public class GitSeminarApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(GitSeminarApplication.class, args);
+
+		System.out.println("Hello, Git Seminar Test!");
 	}
 
 }
