@@ -16,7 +16,7 @@ public class SeminarController {
 
 	@GetMapping("/health")
 	public String healthCheck() {
-		return "OK";
+		return "Hello, the seminar service is running!";
 	}
 
 	@GetMapping("/seminar")
